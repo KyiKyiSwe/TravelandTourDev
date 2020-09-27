@@ -1,0 +1,203 @@
+/*/*for whole browser*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Navigation bar*/
+div#navbar{
+	width: 100%;
+	background-color: #B00020;
+}
+
+/*Navigation bar Left*/
+div#navbar ul{
+	padding-left: 50px;
+}
+div#navbar .nav-ul li{
+	float: left;
+	list-style: none;
+	line-height: 45px;
+
+}
+div#navbar ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'Teko-Bold';
+	padding: 0 15px;
+}
+div#navbar ul li a:hover{
+	color: #B00020;
+	background-color: #FFFFFF;
+	padding: 13px 20px;
+}
+div#navbar .nav-right li{
+	float: right;
+	list-style: none;
+	line-height: 45px;
+	padding-right: 10px;
+}
+.clear{
+	clear: both;
+}
+div#slider{
+	margin: 0 auto;
+}
+div#slider img{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+/*for text "find your specail tour today with heaven tours"*/
+div.textonpicture{
+	position: absolute;
+	top: 18%;
+	left:37%;
+	font-family: DancingScript-Bold;
+	font-size: 25px;
+	
+}
+/*textbox*/
+div.textonpicturetwo input[type="text"]{
+	position: absolute;
+	top: 80%;
+	left:12%;
+	width: 10%;
+	height: 30px;
+	font-family: century;
+	color: #009688;
+	font-size: 15px;
+	border-color: #009688;
+	border-radius: 10px;
+}
+/*for tour type(option)*/
+div.textonpicturetwo .tourtype{
+	position: absolute;
+	top: 80%;
+	left:27%;
+	width: 10%;
+	height: 33px;
+	font-family: century;
+	color: #009688;
+	font-size: 15px;
+	border-color: #009688;
+	border-radius: 10px;
+}
+/*for destination*/
+div.textonpicturetwo .destination{
+	position: absolute;
+	top: 80%;
+	left:42%;
+	width: 10%;
+	height: 33px;
+	font-family: century;
+	color: #009688;
+	font-size: 15px;
+	border-color: #009688;
+	border-radius: 10px;
+}
+/*for month*/
+div.textonpicturetwo .month{
+	position: absolute;
+	top: 80%;
+	left:57%;
+	width: 10%;
+	height: 33px;
+	font-family: century;
+	color: #009688;
+	font-size: 15px;
+	border-color: #009688;
+	border-radius: 10px;
+}
+/*for 'search tour'button*/
+div.textonpicturetwo .testbut{
+	position: absolute;
+	top: 80%;
+	left:74%;
+	width: 150px;
+	height: 33px;
+	font-family: century;
+	color: #FFFFFF;
+	font-size: 15px;
+	background-color: #B00020;
+	border-radius: 10px;
+}
+/*for take a look at our most popular tours*/
+.populartour,.thingstoknow{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: FredokaOne;
+	font-size: 20px;
+	color: #B00020;
+	margin: 10px 0;
+}
+/*for hr*/
+hr{
+	height: 2px;
+	border: none;
+	background-color: #01579B;
+	width: 50%;
+	text-align: center;
+	margin: 20px 300px;
+
+}
+
+
+div#grid-singapore, div#grid-thailand, div#grid-korea{
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+	font-size: 17px;
+	font-family: century;
+	text-align: center;
+	line-height: 20px;
+}
+
+div#grid-singapore img,div#grid-thailand img,div#grid-korea img
+{
+	padding: 5px;
+	width: 65%;
+	height: 90%;
+	border-radius: 30px;
+}
+#grid-singapore div,#grid-thailand div, grid-korea div{
+	padding: 0 25px;
+}
+
+/*for question*/
+div.float-question img, div.premiumpurity img,
+div.pretravel-wellbeing img, div.insurance img{
+	float: left;
+	width: 200px;
+	height:150px;
+	padding: 10px 50px;
+
+}
+p{
+	padding: 10px 30px;
+	font-family: Teko-Bold;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+}
+.clear{
+	clear: both;
+}
+
+#latestportion{
+	width: 100%;
+	height:30%;
+	background-color: black;
+}
+#latestportion .follow{
+	float: left;
+	padding: 10px 35px;
+}
+	
+#latestportion .login{
+	float: right;
+	padding-right: 10px 35px;
+}
