@@ -13,7 +13,7 @@
 
 	<div id="navbar">
 		<ul class="nav-ul">
-			<li><a href="">Home</a></li>
+			<li><a href="" class="active">Home</a></li>
 			<li><a href="">More Place</a></li>
 			<li><a href="">About Us</a></li>
 			<li><a href="">Contact Us</a></li>
@@ -33,9 +33,7 @@
 			Find your special tour today with Heaven Tours
 		</div>
 <!-- for tour name, tour type, destination, month, search tour -->	
-		<div class="textonpicturetwo">
-			<input type="text" name="tourname" id="tourname" placeholder="Tour Name">
-			<label for="tourname"></label>
+		<div id="textonpicturetwo">
 
 			<select class="tourtype">
 				<option>Tour Type</option>
@@ -180,18 +178,24 @@
 	<!-- for latest -->
 	<div id="latestportion">
 		<div class="follow">
-			Follow us on
+			<i>Follow us on</i><br><br>
+			<i class="fab fa-facebook" style="color: blue;"></i>
+			<i class="fab fa-facebook-messenger" style="color: blue;"></i>
+			<i class="fab fa-twitter-square" style="color: blue;"></i>
+			<i class="fab fa-instagram-square"></i>
 		</div>
 		<div class="login">
-			<div><label>Login In</label></div>
-			<div><label for="name">User Name or E-mail Address</label></div>
-			<div><input type="text" name="name" id="name"></div>
-			<div><label for="Password">Password</label></div>
-			<div><input type="password" name="password" id="password"></div>
+			<div class="login1">Login In</div>
+			<div><label for="name">User Name</label>
+			<input type="text" name="name" id="name"></div>
+			<div><label for="Password">Password</label>&nbsp;&nbsp;&nbsp;
+			<input type="password" name="password" id="password"></div>
 			<div><input type="checkbox" name="check">Remember Me</div>
 		</div>
 		<div class="clear"></div>
+		<div class="footer">Heaven Tour Copyright @ 2020</div>
 	</div>
+
 		
 </body>
 </html>
